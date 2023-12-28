@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: monospace;
+		}
+		body{
+			padding: 10px;
+		}
+		.menu{
+			background-color: #22438C;
+			width: 60px;
+			padding: 0px 10px;
+			line-height: 50px;
+			overflow: hidden;
+			color: #eee;
+			border-radius: 25px;
+			display: flex;
+			transition: all .5s ease;
+			cursor: pointer;
+			box-shadow: 0px 0px 4px #000;
+		}
+		.menu li{
+			font-size: 18px;
+			display: inline-block;
+			padding: 0px 10px;
+			margin: 0 auto;
+		}
+		.menu li a{
+			text-decoration: none;
+			color: #eee;
+		}
+		.menu:hover{
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<ul class="menu">
+		<li>Menu</li>
+		<li><a href="#">&#x2708;</a></li>
+		<li><a href="#">&#x266b;</a></li>
+		<li><a href="#">&#x2709;</a></li>
+	</ul>
+</body>
+</html>
